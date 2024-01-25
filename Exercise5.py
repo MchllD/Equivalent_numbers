@@ -27,6 +27,13 @@ def check_first_last_similarity(numbers):
 # Check if the first and last numbers are the same
 # Return True to indicate successful match
 # Return False to indicate no match
+    if first_number == last_number:
+        print("✨ Result: Congrats! You uncovered the secret: the first and last numbers match! ✨")
+        return True
+    else:
+        print("🕵️‍♂️ Result: Oops! The mystery continues - the first and last numbers are different. Keep exploring! 🕵️‍♂️")
+        return False
+
 # Sample 1
 # Sample 2
 # Sample 3
