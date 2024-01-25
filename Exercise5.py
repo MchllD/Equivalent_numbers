@@ -44,4 +44,5 @@ print("\nSample 2 -", check_first_last_similarity(magical_numbers_2))
 
 
 # Sample 3
-# Call the check_first_last_similarity function with the first, second & third sample
+magical_numbers_3 = [11, 88, 77, 66, 55, 44, 33, 22, 11]
+print("\nSample 3 -", check_first_last_similarity(magical_numbers_3))
