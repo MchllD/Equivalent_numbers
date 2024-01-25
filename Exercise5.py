@@ -21,6 +21,9 @@ def check_first_last_similarity(numbers):
     print("\nChecking the mystery and similarity of the first and last numbers in the list:", numbers)
     
 # Get the first and last numbers from the list
+    first_number = numbers[0]
+    last_number = numbers[-1]
+    
 # Check if the first and last numbers are the same
 # Return True to indicate successful match
 # Return False to indicate no match
