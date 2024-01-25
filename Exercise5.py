@@ -35,6 +35,9 @@ def check_first_last_similarity(numbers):
         return False
 
 # Sample 1
+magical_numbers_1 = [7, 14, 21, 28, 7]
+print("\nSample 1 -", check_first_last_similarity(magical_numbers_1))
+
 # Sample 2
 # Sample 3
 # Call the check_first_last_similarity function with the first, second & third sample
