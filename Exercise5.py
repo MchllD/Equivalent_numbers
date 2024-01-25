@@ -15,7 +15,7 @@
 # Call the check_first_last_similarity function with the first, second & third sample
 
 
-# ********************************** actual code *****************************************************
+# ***************************************************** actual code *****************************************************************
 # Function to check the similarity of the first and last numbers in a list
 def check_first_last_similarity(numbers):
     print("\nChecking the mystery and similarity of the first and last numbers in the list:", numbers)
@@ -39,5 +39,9 @@ magical_numbers_1 = [7, 14, 21, 28, 7]
 print("\nSample 1 -", check_first_last_similarity(magical_numbers_1))
 
 # Sample 2
+magical_numbers_2 = [10, 20, 30, 40, 50]
+print("\nSample 2 -", check_first_last_similarity(magical_numbers_2))
+
+
 # Sample 3
 # Call the check_first_last_similarity function with the first, second & third sample
